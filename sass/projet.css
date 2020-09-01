@@ -1,0 +1,203 @@
+/*HEADER*/
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body div {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid white;
+}
+
+header img {
+  -webkit-box-shadow: 10px 10px 0px;
+          box-shadow: 10px 10px 0px;
+  color: white;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+}
+
+header nav ul {
+  height: 100%;
+}
+
+header nav ul li {
+  background-color: transparent;
+  display: inline-block;
+  padding: 25px 15px;
+}
+
+header nav ul li a {
+  color: white;
+}
+
+header nav ul li:hover {
+  border-bottom: 3px solid #5555ee;
+  margin-bottom: -3px;
+}
+
+header nav ul li:hover a {
+  color: white;
+}
+
+#home {
+  height: 100%;
+  background-image: url(/assets/img/img/background1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#home h1 {
+  color: white;
+  font-size: 50;
+}
+
+#title {
+  margin-top: 15%;
+}
+
+#title h1 {
+  text-align: center;
+  font-size: 10em;
+}
+
+#title h2 {
+  text-align: center;
+  color: #5555ee;
+  letter-spacing: 15px;
+}
+
+#scroll {
+  padding-top: 70px;
+  text-align: center;
+}
+
+#scroll span {
+  font-size: 1.5em;
+  color: white;
+}
+
+#scroll a #scroll-down-button {
+  font-size: 5em;
+  color: white;
+}
+
+/*SECTION*/
+#main1 {
+  background-image: url(/assets/img/img/background2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main1 h1 {
+  margin: 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: white;
+  text-align: center;
+}
+
+#main1 .feature {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+#main1 .feature-description {
+  font-size: 0.5em;
+  text-align: justify;
+}
+
+#main1 .circle-icon {
+  background-color: #127cc2;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+#main2 {
+  height: 100%;
+}
+
+#main2 .row {
+  margin: 0%;
+  height: 50%;
+  width: 100%;
+}
+
+#main2 .back1 {
+  background-color: #3b2727;
+  background-size: contain;
+}
+
+#main2 .back1 #article1 {
+  margin: 15% 10% 5% 30%;
+  color: white;
+}
+
+#main2 .img1 {
+  background-image: url(/assets/img/img/image1.png);
+  background-size: cover;
+}
+
+#main2 .img2 {
+  background-image: url(/assets/img/img/image2.png);
+  background-size: cover;
+}
+
+#main2 .back2 {
+  background-color: #e6e3e3;
+  background-size: contain;
+}
+
+#main2 .back2 #article2 {
+  margin: 15% 30% 5% 10%;
+  margin-right: 30%;
+  color: black;
+}
+
+#main3 {
+  height: 100%;
+  background-image: url(/assets/img/img/background3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main3 h2 {
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+#main3 h3 {
+  color: black;
+  text-align: center;
+  margin: 0%;
+}
+
+#main3 .feat {
+  text-align: center;
+  color: black;
+  font-size: 1em;
+}
+
+#main3 .feat h4 {
+  color: blue;
+  font-size: 1em;
+}
+
+#main4 {
+  background-image: url(/assets/img/img/);
+}
+/*# sourceMappingURL=projet.css.map */
